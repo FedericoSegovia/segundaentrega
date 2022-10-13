@@ -1,27 +1,29 @@
 
 
-body{
-    background-image: url("imagenes/Background/Fondo\ de\ pagina.jpg");
+.background{
+   background-color: #16161a;
 background-repeat: no-repeat;
 background-size: cover;
 }
 
 ul{
     list-style: none;
+    
 }
 
 h1{
+color: white;    
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
-
+background-color: #7f5af0;
 }
 
-.div{
+/*.div{
     text-align: center;
     margin: auto;
    
 
-}
+}*/
 
 .menu{
     padding: 0;
@@ -40,19 +42,15 @@ text-align: center;
 .menu li{
     display: inline-block;
     text-align: center;
+    color: blue;
 }
 
 .inicio{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    color:#7f5af0;
 }
 
-.footer{
-    color: white;
-    text-decoration: underline;
-    text-transform: uppercase;
-}
-.imginicio{
-    text-align: center;
+footer{
+    background-color:#7f5af0;
 }
