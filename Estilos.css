@@ -54,3 +54,7 @@ background-color: #7f5af0;
 footer{
     background-color:#7f5af0;
 }
+
+.menu li a:hover{
+background: #7f5af0;
+}
